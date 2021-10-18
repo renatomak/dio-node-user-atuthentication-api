@@ -2,10 +2,12 @@
   "name": "dio-node-user-atuthentication-api",
   "version": "1.0.0",
   "description": "Mricroservice criado durante o live code da DIO",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p .",
+    "start": "node ./"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,8 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.13"
+    "@types/node": "^16.11.1",
+    "nodemon": "^2.0.13",
+    "typescript": "^4.4.4"
   }
 }
