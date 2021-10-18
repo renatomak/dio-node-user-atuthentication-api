@@ -1,0 +1,26 @@
+{
+  "name": "dio-node-user-atuthentication-api",
+  "version": "1.0.0",
+  "description": "Mricroservice criado durante o live code da DIO",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatomak/dio-node-user-atuthentication-api.git"
+  },
+  "author": "Renato Marques",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatomak/dio-node-user-atuthentication-api/issues"
+  },
+  "homepage": "https://github.com/renatomak/dio-node-user-atuthentication-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
