@@ -4,7 +4,7 @@
   "description": "Mricroservice criado durante o live code da DIO",
   "main": "./dist/index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/server.ts",
     "dev-2": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p .",
@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/renatomak/dio-node-user-atuthentication-api#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "uuidv4": "^6.2.12"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
